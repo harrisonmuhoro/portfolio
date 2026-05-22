@@ -19,6 +19,9 @@ $base = rtrim(BASE_PATH, '/');
 ?>
 <!DOCTYPE html>
 <html lang="<?= htmlspecialchars(SITE_LANGUAGE) ?>" dir="ltr">
+    <!-- Vercel Analytics -->
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
