@@ -112,6 +112,14 @@ $base = rtrim(BASE_PATH, '/');
         "knowsAbout": ["HTML5", "CSS3", "JavaScript", "PHP", "MySQL", "MongoDB", "Web Development", "Full-Stack Development"]
     }
     </script>
+
+    <!-- ── Vercel Web Analytics ── -->
+    <script>
+        window.va = window.va || function () {
+            (window.vaq = window.vaq || []).push(arguments);
+        };
+    </script>
+    <script defer src="https://cdn.vercel-insights.com/v1/script.debug.js"></script>
 </head>
 <body>
 <?php require_once __DIR__ . '/navigation.php'; ?>
